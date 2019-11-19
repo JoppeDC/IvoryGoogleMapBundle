@@ -33,7 +33,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:egeloen/ivory-json-builder.git"
+            "url": "git@github.com:eikona-media/ivory-json-builder.git"
         }
     ]
 }
