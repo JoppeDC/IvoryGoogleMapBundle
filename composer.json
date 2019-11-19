@@ -14,7 +14,7 @@
         "php": ">=5.3.0",
         "symfony/symfony": "^4.0",
         "yappabe/google-map": "^1.4",
-        "egeloen/json-builder": "^2.0",
+        "egeloen/json-builder": "dev-master",
         "php-http/guzzle6-adapter": "^1.0"
     },
     "require-dev": {
@@ -29,5 +29,11 @@
     },
     "config": {
         "bin-dir": "bin/"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:egeloen/ivory-json-builder.git"
+        }
+    ]
 }
